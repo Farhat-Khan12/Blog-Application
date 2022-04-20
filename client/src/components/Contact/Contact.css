@@ -1,0 +1,41 @@
+.contact{
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ) ,
+        url("https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contactTitle{
+    font-size: 50px;
+    color: lightslategrey;
+    font-weight: bold;
+}
+
+.contactDetails{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contactDetails > h2{
+    margin: 10px 0;
+}
+
+.contactDetails > h4{
+    margin: 10px 0;
+}
+
+.contactIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
