@@ -1,0 +1,41 @@
+.about{
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ) ,
+        url("https://images.pexels.com/photos/96627/pexels-photo-96627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutTitle{
+    font-size: 50px;
+    color: green;
+    font-weight: bold;
+}
+
+.aboutDetails{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aboutDetails > h2{
+    margin: 10px 0;
+}
+
+.aboutDetails > h4{
+    margin: 10px 0;
+}
+
+.aboutIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
